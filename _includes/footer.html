@@ -1,0 +1,36 @@
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="nav-logo"><span class="logo-dmls">DMLS</span></span>
+      <p>Cours de maths en ligne, pour tous les niveaux et tous les profils.</p>
+      <a href="#reservation" class="btn btn-outline">Prendre rendez-vous →</a>
+    </div>
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#tarifs">Tarifs</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Niveaux</h4>
+      <ul>
+        <li>Collège (6e → 3e)</li>
+        <li>Lycée (2nde → Term.)</li>
+        <li>Post-bac & BTS</li>
+        <li>Adultes / reprise</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+      <p>Cours 100% en ligne<br>Lun – Sam, 8h – 20h</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; {{ "now" | date: "%Y" }} Donne Moi La Solution &nbsp;·&nbsp; <a href="/mentions-legales">Mentions légales</a> &nbsp;·&nbsp; <a href="/cgv">CGV</a></p>
+  </div>
+</footer>

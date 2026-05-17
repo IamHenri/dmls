@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<article class="post-single">
+  <header class="post-header">
+    <div class="container">
+      {% if page.category %}<span class="post-tag">{{ page.category }}</span>{% endif %}
+      <h1>{{ page.title }}</h1>
+      <div class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %B %Y" }}</time>
+        {% if page.niveau %}<span class="post-niveau">{{ page.niveau }}</span>{% endif %}
+        {% if page.readtime %}<span>⏱ {{ page.readtime }} min de lecture</span>{% endif %}
+      </div>
+    </div>
+  </header>
+  <div class="container post-body">
+    {{ content }}
+    <div class="post-cta-box">
+      <h3>Tu veux progresser en maths ?</h3>
+      <p>Réserve ta première séance d'essai — sans engagement.</p>
+      <a href="/#reservation" class="btn btn-primary">Réserver maintenant</a>
+    </div>
+  </div>
+</article>

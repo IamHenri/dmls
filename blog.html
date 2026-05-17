@@ -1,0 +1,88 @@
+---
+layout: default
+title: Blog — Astuces & Ressources Maths
+description: "Articles de méthode, exercices corrigés et conseils pour progresser en maths."
+permalink: /blog/
+---
+
+<header class="blog-page-header">
+  <div class="container">
+    <span class="section-label">Ressources gratuites</span>
+    <h1>Le Blog DMLS</h1>
+    <p>Méthodes, astuces et exercices corrigés pour progresser à ton rythme.</p>
+  </div>
+</header>
+
+<section class="section blog-archive">
+  <div class="container">
+    <!-- Filtres par catégorie -->
+    <div class="blog-filters">
+      <button class="filter-btn active" data-filter="all">Tous les articles</button>
+      <button class="filter-btn" data-filter="methode">Méthode</button>
+      <button class="filter-btn" data-filter="exercice">Exercices corrigés</button>
+    </div>
+
+    <div class="blog-grid" id="blog-posts">
+      {% for post in site.posts %}
+      <article class="blog-card" data-category="{{ post.category | downcase }}">
+        <div class="blog-card-header">
+          {% if post.category %}<span class="post-tag">{{ post.category }}</span>{% endif %}
+          {% if post.niveau %}<span class="post-niveau">{{ post.niveau }}</span>{% endif %}
+        </div>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt | strip_html | truncate: 130 }}</p>
+        <div class="blog-card-footer">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
+          <a href="{{ post.url | relative_url }}" class="read-more">Lire l'article →</a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+
+    {% if site.posts.size == 0 %}
+    <div class="blog-empty">
+      <p>Les premiers articles arrivent bientôt… 🚀</p>
+      <a href="/#reservation" class="btn btn-primary">En attendant, réserve une séance</a>
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+<style>
+.blog-archive { background: var(--light); }
+.blog-filters { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 40px; }
+.filter-btn {
+  padding: 10px 22px;
+  border-radius: 100px;
+  border: 2px solid rgba(108,63,197,.2);
+  background: var(--white);
+  color: var(--text-muted);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: .88rem;
+  cursor: pointer;
+  transition: all .2s;
+}
+.filter-btn.active, .filter-btn:hover {
+  background: var(--violet);
+  border-color: var(--violet);
+  color: var(--white);
+}
+.blog-empty { text-align: center; padding: 60px 0; color: var(--text-muted); }
+.blog-empty p { margin-bottom: 24px; font-size: 1.1rem; }
+</style>
+
+<script>
+const filterBtns = document.querySelectorAll('.filter-btn');
+const posts = document.querySelectorAll('#blog-posts .blog-card');
+filterBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    filterBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const filter = btn.dataset.filter;
+    posts.forEach(post => {
+      post.style.display = (filter === 'all' || post.dataset.category === filter) ? '' : 'none';
+    });
+  });
+});
+</script>

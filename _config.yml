@@ -1,0 +1,38 @@
+title: "Donne Moi La Solution"
+description: "Cours de maths particuliers & collectifs en ligne — Collège, Lycée, Post-bac, Adultes"
+url: "https://ton-username.github.io"
+baseurl: "/dmls"
+lang: fr
+
+author:
+  name: "Prénom Nom"
+  email: "contact@donnemolasolution.fr"
+  bio: "Prof de maths passionné, j'accompagne collégiens, lycéens, étudiants et adultes depuis plus de 10 ans vers la réussite."
+
+# Stripe — remplace par tes vrais liens Payment Links
+stripe:
+  public_key: "pk_live_VOTRE_CLE_STRIPE"
+  pack_5h_link: "https://buy.stripe.com/PACK_5H"
+  pack_10h_link: "https://buy.stripe.com/PACK_10H"
+  abonnement_link: "https://buy.stripe.com/ABONNEMENT"
+
+# Cal.com — remplace par ton username
+calcom:
+  username: "donnemolasolution"
+
+# Tarifs affichés
+tarifs:
+  particulier_heure: 45
+  groupe_heure: 25
+  stage_journee: 120
+  pack_5h: 200
+  pack_10h: 380
+  abonnement: 160
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
