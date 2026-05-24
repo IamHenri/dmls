@@ -7,5 +7,5 @@ niveau: Collège / Lycée
 readtime: 6
 excerpt: "Lien vers des ressources en ligne rédigées pour mes élèves."
 ---
-## Index de contenus en ligne
-Sur cette page  https://iamhenri.github.io/notes-maths-tex/ j'ai publié différentes notes de cours / exemples / exercices avec une volonté : vous fournir toutes les explications nécessaires à la compréhension des sujets que vous pourrez me présenter.
+ <h2>Index de contenus en ligne </h2>
+Sur cette page   <a href="https://iamhenri.github.io/notes-maths-tex/" target="_blank"> j'ai publié différentes notes de cours / exemples / exercices avec une volonté : vous fournir une référence pour toutes les explications nécessaires à la compréhension des sujets que vous pourrez me présenter.
