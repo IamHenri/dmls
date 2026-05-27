@@ -6,7 +6,8 @@ category: Méthode
 niveau: Tous
 readtime: 8
 excerpt: "Quelques chaînes diponibles sur Youtube pour des explication visuelles des concepts qui peuvent paraître abstraits."
----<div id="ym-root">
+---
+<div id="ym-root">
   <div class="ym-container">
     <div class="ym-header">
       <div class="ym-header-dot"></div>
@@ -135,4 +136,5 @@ excerpt: "Quelques chaînes diponibles sur Youtube pour des explication visuelle
 
       </div>
     </div>
+  </div>
   </div>
