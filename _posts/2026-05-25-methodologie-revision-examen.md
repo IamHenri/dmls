@@ -12,10 +12,8 @@ excerpt: "Quelques chaînes diponibles sur Youtube pour des explication visuelle
     <div class="ym-header">
       <div class="ym-header-dot"></div>
       <div class="ym-header-text">
-
         <h1>Méthodologie</h1>
         <h2>Ou comment réviser au mieux</h2>
-
         <p>
           Pour réviser, on part du principe qu'on dispose de ses cours et des différents exercices travaillés en classe — des exercices dont on a la correction. La stratégie est la suivante :
         </p>
@@ -38,9 +36,7 @@ excerpt: "Quelques chaînes diponibles sur Youtube pour des explication visuelle
         <p>
           On augmente progressivement la difficulté, puis on passe aux annales corrigées en appliquant la même stratégie.
         </p>
-
         <h2>Schéma</h2>
-
         <div class="ym-prereqs">
           <p><strong>Étape 0 — Les prérequis</strong></p>
           <ul>
@@ -48,7 +44,6 @@ excerpt: "Quelques chaînes diponibles sur Youtube pour des explication visuelle
             <li>Avoir des exercices avec leurs corrections détaillées.</li>
           </ul>
         </div>
-
         <div class="ym-schema">
           <pre>
 [ CHOIX D'UN SUJET ]
@@ -102,7 +97,6 @@ excerpt: "Quelques chaînes diponibles sur Youtube pour des explication visuelle
 └────────────────────────────────────────────────────────────────┘
           </pre>
         </div>
-
         <div class="ym-rules">
           <p><strong>Les 3 règles d'or</strong></p>
           <ul>
@@ -112,9 +106,7 @@ excerpt: "Quelques chaînes diponibles sur Youtube pour des explication visuelle
           </ul>
           <p><em>On apprend des méthodes, pas des idées ni des concepts.</em></p>
         </div>
-
         <h2>Temps de révision</h2>
-
         <p>
           Il n'y a pas de temps maximum de révision, si ce n'est celui de subvenir aux nécessités biologiques — et il faut aussi savoir faire autre chose. C'est un équilibre difficile à définir, propre à chacun. Toutefois, il existe un minimum.
         </p>
@@ -124,17 +116,14 @@ excerpt: "Quelques chaînes diponibles sur Youtube pour des explication visuelle
         <p>
           En résumé : il faut ménager des temps propres à la réflexion, où l'on a le loisir d'être pleinement concentré.
         </p>
-
         <h2>Limites</h2>
-
         <p>
           Tout ceci est bien théorique et ne prend pas en considération les problématiques de chacun.
         </p>
         <p>
           Avoir du temps à consacrer à ses études est un luxe. Si vous en avez et que vous voulez mener à bien certaines révisions, alors cette méthode peut vous être utile.
         </p>
-
       </div>
     </div>
   </div>
-  </div>
+</div>
