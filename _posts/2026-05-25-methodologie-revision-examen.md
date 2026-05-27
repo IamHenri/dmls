@@ -136,4 +136,3 @@ excerpt: "Quelques chaînes diponibles sur Youtube pour des explication visuelle
       </div>
     </div>
   </div>
-</div>
