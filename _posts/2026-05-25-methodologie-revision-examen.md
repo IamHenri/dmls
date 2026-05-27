@@ -81,9 +81,9 @@ excerpt: "Quelques pistes de réflexions pour mener à bien ses révisions."
         <div class="ym-rules">
           <p><strong>Les 3 règles d'or</strong></p>
           <ul>
-            <li>🧠 <strong>Le secret :</strong> l'effort doit venir de la compréhension de la logique, pas du souvenir visuel de ce qu'on a lu.</li>
-            <li>📝 <strong>Action :</strong> quand on réessaie, la solution doit impérativement être fermée ou cachée. On réécrit manuellement.</li>
-            <li>📈 <strong>Progression :</strong> on ne passe à la difficulté supérieure que lorsque la mécanique de l'exercice actuel est totalement assimilée.</li>
+            <li> <strong>Le secret :</strong> l'effort doit venir de la compréhension de la logique, pas du souvenir visuel de ce qu'on a lu.</li>
+            <li> <strong>Action :</strong> quand on réessaie, la solution doit impérativement être fermée ou cachée. On réécrit manuellement.</li>
+            <li> <strong>Progression :</strong> on ne passe à la difficulté supérieure que lorsque la mécanique de l'exercice actuel est totalement assimilée.</li>
           </ul>
           <p><em>On apprend des méthodes, pas des idées ni des concepts.</em></p>
         </div>
