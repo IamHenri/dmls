@@ -5,7 +5,7 @@ date: 2026-05-02
 category: Méthode
 niveau: Tous
 readtime: 8
-excerpt: "Quelques chaînes diponibles sur Youtube pour des explication visuelles des concepts qui peuvent paraître abstraits."
+excerpt: "Quelques pistes de réflexions pour mener à bien ses révisions."
 ---
 <div id="ym-root">
   <div class="ym-container">
@@ -16,25 +16,6 @@ excerpt: "Quelques chaînes diponibles sur Youtube pour des explication visuelle
         <h2>Ou comment réviser au mieux</h2>
         <p>
           Pour réviser, on part du principe qu'on dispose de ses cours et des différents exercices travaillés en classe — des exercices dont on a la correction. La stratégie est la suivante :
-        </p>
-        <p>
-          On choisit un sujet, on attaque un exercice facile. Deux possibilités :
-        </p>
-        <ul>
-          <li><strong>On le résout</strong> : on passe à autre chose.</li>
-          <li>
-            <strong>On ne le résout pas</strong> : on lit la solution en détail, en prenant soin de comprendre chaque point de la démonstration. On met cette solution de côté, puis on réattaque la résolution de l'exercice.
-            Toute la clé est ici — il ne s'agit pas de se rappeler ce qu'on a <em>lu</em>, mais ce qu'on a <em>compris</em>. Retrouver la logique de la démonstration, pas le souvenir visuel de la page.
-            <ul>
-              <li><strong>On le résout</strong> : on passe à un exercice plus difficile.</li>
-              <li>
-                <strong>On ne le résout pas</strong> : on relit la solution pour la comprendre — pas l'apprendre, la <em>comprendre</em>. Puis on ferme la solution et on reprend la correction manuelle, jusqu'à ce que la mécanique soit assimilée.
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <p>
-          On augmente progressivement la difficulté, puis on passe aux annales corrigées en appliquant la même stratégie.
         </p>
         <h2>Schéma</h2>
         <div class="ym-prereqs">
