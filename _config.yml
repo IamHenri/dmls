@@ -37,3 +37,6 @@ plugins:
 
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title/
+
+social:
+  linkedin: "https://www.linkedin.com/in/h3nr1"
